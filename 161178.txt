@@ -1,0 +1,23 @@
+
+C:\Users\Hristijan>mkdir SI_2023_lab1_161178
+
+C:\Users\Hristijan>cd SI_2023_lab1_161178
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git init
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add README.txt
+
+C:\Users\Hristijan\SI_2023_lab1_161178> git commit -m "Initial commit"
+
+
+C:\Users\Hristijan\SI_2023_lab1_161178>echo "" > SILab1.java
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add SILab1.java
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git commit -m "Add java class"
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git remote add origin https://github.com/Tomevski/SI_2023_lab1_161178~
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git push origin master
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add .

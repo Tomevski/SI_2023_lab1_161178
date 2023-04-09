@@ -1,0 +1,59 @@
+
+C:\Users\Hristijan>mkdir SI_2023_lab1_161178
+
+C:\Users\Hristijan>cd SI_2023_lab1_161178
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git init
+Initialized empty Git repository in C:/Users/Hristijan/SI_2023_lab1_161178/.git/
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add README.txt
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+C:\Users\Hristijan\SI_2023_lab1_161178> git commit -m "Initial commit"
+[master (root-commit) 79c473e] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+
+C:\Users\Hristijan\SI_2023_lab1_161178>echo "" > SILab1.java
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add SILab1.java
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git commit -m "Add java class"
+[master d6e9d7d] Add java class
+ 1 file changed, 41 insertions(+)
+ create mode 100644 SILab1.java
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git remote add origin https://github.com/Tomevski/SI_2023_lab1_161178~
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git push origin master
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git add .
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git commit -m "Final commit"
+[master ede5a61] Final commit
+ 3 files changed, 51 insertions(+)
+ create mode 100644 161178.txt
+ create mode 100644 logs.txt
+
+C:\Users\Hristijan\SI_2023_lab1_161178>git push origin master
+
